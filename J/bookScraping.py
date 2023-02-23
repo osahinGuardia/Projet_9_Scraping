@@ -2,9 +2,9 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import csv
-from scraper import Scraping
+from J.scraper import Scraping
 
-from Book import Book
+from J.Book import Book
 
 base_url = "https://www.decitre.fr"
 uri = "/livres/nouveautes.html?p="
